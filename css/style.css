@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&family=Open+Sans:ital,wght@1,300&display=swap');
+
+:root{
+    --font:#212125;
+    --buttons:#a3de83;
+    --line-buttons: #239d60;
+    --background: #c5c5bbd5;
+}
+h1,h2,h3, h4,h5,p, input, textarea, ul{
+    margin:0;
+    padding: 0;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+img .logo{
+    size: 30px x 60px;
+}
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+    } 
+    nav li{
+    display:inline-block;
+    width:10%;
+    padding:5px 10px;
+    background-color:#000;
+    border:1px solid #000;
+    text-align:center;
+    color:#fff;
+    }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    background-color: var(--background);
+}
+
+.logo {
+    height:20px;
+    width: 20px;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.banner{
+    background-color: var(--background);
+    border: 0px;
+}
+
+.btn-img{
+    background-image: url(/img/living-room-g6e20a526c_640.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 569px;
+    width: 720px;
+    text-align: center;
+    padding-top: 45px;
+    margin: 20px;
+    border: 3px;
+    border-color: #a3de83;
+}
