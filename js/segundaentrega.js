@@ -28,7 +28,7 @@ const seleccionarProductos =
 ];
 let browseProduct 
 prompt ('what do you want to search?')
-    const result = buy.filter ((the) => the.names.includes('kindle'))
+    let parameter = input.search.value ((the) => the.names.includes('kindle'))
 console.log (result)
 
 
@@ -55,3 +55,7 @@ const products = [
 ];
 
 
+let result = products.filter (product => product.names.includes (parameter))
+if(result.length >0){
+  loadproducts (result)
+}
